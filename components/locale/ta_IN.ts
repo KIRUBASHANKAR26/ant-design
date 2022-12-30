@@ -18,10 +18,17 @@ const localeValues: Locale = {
     filterTitle: 'பட்டியலை மூடு',
     filterConfirm: 'சரி',
     filterReset: 'மீட்டமை',
+    filterEmptyText: 'வெற்று உரையை வடிகட்டவும்',
+    filterCheckall: 'அனைத்தையும் கிளிக் செய்யவும்',
+    filterSearchPlaceholder: 'தேடல் பெட்டி',
     emptyText: 'தகவல் இல்லை',
     selectAll: 'அனைத்தையும் தேர்வுசெய்',
     selectInvert: 'தலைகீழாக மாற்று',
     sortTitle: 'தலைப்பை வரிசைப்படுத்தவும்',
+    selectionAll: 'அனைத்தையும் தேர்ந்தெடுத்தது',
+    expand: 'விரிவடையும்',
+    triggerDesc: 'இறங்கு',
+    triggerAsc: 'ஏறும்',
   },
   Modal: {
     okText: 'சரி',
@@ -60,6 +67,63 @@ const localeValues: Locale = {
   },
   PageHeader: {
     back: 'பின் செல்லவும்',
+  },
+  Form: {
+    optional: '(விருப்பமானது)',
+    defaultValidateMessages: {
+      default: 'சரிபார்ப்பு ${label}',
+      required: 'தேவை ${label}',
+      enum: '${label} ஒன்று இருக்க வேண்டும் [${enum}]',
+      whitespace: '${label} வெறுமையாக இருக்க முடியாது',
+      date: {
+        format: '${label} தேதி வடிவம் தவறானது',
+        parse: '${label} தேதியாக மாற்ற முடியாது',
+        invalid: '${label} இது தவறான தேதி',
+      },
+      types: {
+        string: typeTemplate,
+        method: typeTemplate,
+        array: typeTemplate,
+        object: typeTemplate,
+        number: typeTemplate,
+        date: typeTemplate,
+        boolean: typeTemplate,
+        integer: typeTemplate,
+        float: typeTemplate,
+        regexp: typeTemplate,
+        email: typeTemplate,
+        url: typeTemplate,
+        hex: typeTemplate,
+      },
+      string: {
+        len: '${label} இருக்க வேண்டுய எழுத்துக்கள் ${len}',
+        min: '${label} குறைந்தபட்சம் இருக்க வேண்டும் எழுத்துக்கள் ${min}',
+        max: '${label} வார்த்தை அதிகபட்சம் ${max}',
+        range: '${label} வார்த்தை ${min} முதல் ${max} வரை இருக்க வேண்டும்',
+      },
+      number: {
+        len: '${label}, ${len}க்கு சமமாக இருக்க வேண்டும்',
+        min: '${label} குறைந்தபட்சம் ${min} ஆக இருக்க வேண்டும்',
+        max: '${label} வார்த்தை அதிகபட்சம் ${max} ஆக இருக்க வேண்டும்',
+        range: '${label}, ${min}-${max}க்குள் இருக்க வேண்டும் ',
+      },
+      array: {
+        len: 'இருக்க வேண்டும் ${len} ${label}',
+        min: 'குறைந்தபட்சம் ${min} ${label}',
+        max: 'அதிக பட்சம் ${max} ${label}',
+        range: '${label} அளவு ${min}-${max}க்கு இடையில் இருக்க வேண்டும்',
+      },
+      pattern: {
+        mismatch: '${label} வடிவத்துடன் பொருந்தவில்லை ${pattern}',
+      },
+    },
+  },
+  Image: {
+    preview: 'முன்னோட்ட',
+  },
+  QRCode: {
+    expired: 'QR குறியீடு காலாவதியானது',
+    refresh: 'புதுப்பிப்பு',
   },
 };
 

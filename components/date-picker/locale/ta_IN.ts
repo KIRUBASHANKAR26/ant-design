@@ -8,6 +8,12 @@ const locale: PickerLocale = {
   lang: {
     placeholder: 'தேதியைத் தேர்ந்தெடுக்கவும்',
     rangePlaceholder: ['தொடக்க தேதி', 'கடைசி தேதி'],
+    quarterPlaceholder: 'காலாண்டு தேதியைத் தேர்ந்தெடுக்கவும்',
+    monthPlaceholder: 'மாத தேதியைத் தேர்ந்தெடுக்கவும்',
+    weekPlaceholder: 'வாரம் தேதியைத் தேர்ந்தெடுக்கவும்',
+    rangeYearPlaceholder: ['ஆண்டு தொடக்க தேதி', 'ஆண்டு கடைசி தேதி'],
+    rangeMonthPlaceholder: ['மாதம் தொடக்க தேதி', 'மாதம் கடைசி தேதி'],
+    rangeWeekPlaceholder: ['வாரம் தொடக்க தேதி', 'வாரம் தொடக்க தேதி'],
     ...CalendarLocale,
   },
   timePickerLocale: {
